@@ -1,0 +1,64 @@
+TemptyExample
+v7
+r1
+cCheck dependencies
+
+N/Users/ianm/OF/apps/zach/drawingExample4/../../../libs/glut/lib/osx/GLUT.framework
+c000000004B6D1BB20000000000000132
+t1265441714
+s306
+
+N/Users/ianm/OF/apps/zach/drawingExample4/bin//emptyExampleDebug.app
+t1267219030
+s102
+
+N/Users/ianm/OF/apps/zach/drawingExample4/bin//emptyExampleDebug.app/Contents/Info.plist
+t1264874944
+s621
+
+N/Users/ianm/OF/apps/zach/drawingExample4/bin//emptyExampleDebug.app/Contents/PkgInfo
+t1264874944
+s8
+
+N/Users/ianm/OF/apps/zach/drawingExample4/bin/emptyExampleDebug.app/Contents/Frameworks/GLUT.framework
+t1264874962
+s306
+
+N/Users/ianm/OF/apps/zach/drawingExample4/bin/emptyExampleDebug.app/Contents/Resources/openFrameworks-Info.plist
+t1264874964
+s631
+
+N/Users/ianm/OF/apps/zach/drawingExample4/build/drawingExample1.build/Debug/emptyExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c000000004B8833140000000000000113
+t1267217172
+s275
+
+N/Users/ianm/OF/apps/zach/drawingExample4/openFrameworks-Info.plist
+c000000004B38DCE60000000000000277
+t1262017766
+s631
+
+NopenFrameworks-Info.plist
+c000000004B38DCE60000000000000277
+t1262017766
+s631
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies289867079#289867079#0(196"[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'[WARN]Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.2(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'289867079#18446744073709551615#0#0(1@0"0(22@103"Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.289867079#18446744073709551615#0#0(1@0"0(0#1#0"4300885448#0"0#
+
+CPBXCp bin/emptyExampleDebug.app/Contents/Frameworks/GLUT.framework ../../../libs/glut/lib/osx/GLUT.framework
+r0
+
+CPBXCp bin/emptyExampleDebug.app/Contents/Resources/openFrameworks-Info.plist openFrameworks-Info.plist
+r0
+
+CPhaseScriptExecution "Run Script" /Users/ianm/OF/apps/zach/drawingExample4/build/drawingExample1.build/Debug/emptyExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+r0
+
+CProcessInfoPlistFile /Users/ianm/OF/apps/zach/drawingExample4/bin//emptyExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
+r0
+
+CTouch /Users/ianm/OF/apps/zach/drawingExample4/bin//emptyExampleDebug.app
+r0
+
