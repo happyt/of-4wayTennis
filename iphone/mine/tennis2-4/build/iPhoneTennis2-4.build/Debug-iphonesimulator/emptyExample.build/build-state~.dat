@@ -1,0 +1,1450 @@
+TemptyExample
+v7
+r0
+t290987845.450085
+cCheck dependencies
+cProcessInfoPlistFile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/Info.plist ofxiphone-Info.plist
+cCpResource build/Debug-iphonesimulator/emptyExample.app/Default.png bin/data/Default.png
+cCpResource build/Debug-iphonesimulator/emptyExample.app/Icon.png bin/data/Icon.png
+cCopyPlistFile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
+cProcessPCH++ /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-drshpdigouvohncjmirmfeqzzayt/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/main.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample normal i386
+cGenerateDSYMFile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app.dSYM /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample
+cPhaseScriptExecution "Run Script" /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+cTouch /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004BA3E4A300000000000000EE
+t1269032099
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c00000000448600480000000000000556
+t1149632584
+s1366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A0DADCB0000000000180330
+t1242410443
+s1573680
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026DB00
+t1242278438
+s2546432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A0CD38B0000000000041070
+t1242354571
+s266352
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004A0CD38600000000000001AF
+t1242354566
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004486036800000000000003A8
+t1149633384
+s936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000260C20
+t1242278711
+s2493472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004A0BC0FF000000000000017D
+t1242284287
+s381
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004A0BB034000000000001C730
+t1242279988
+s116528
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004A0BAD67000000000000094F
+t1242279271
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004A0BAD670000000000009369
+t1242279271
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004A0BAD670000000000002576
+t1242279271
+s9590
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A0BAD70000000000001DD70
+t1242279280
+s122224
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A0BAE3400000000000E4270
+t1242279476
+s934512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004485F81C000000000000062F
+t1149630492
+s1583
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001432D80
+t1242349407
+s21179776
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/Availability.h
+c000000004A0BAC5D00000000000019D8
+t1242279005
+s6616
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/TargetConditionals.h
+c000000004A0BAC5D00000000000031B4
+t1242279005
+s12724
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/ctype.h
+c000000004748A1320000000000002C3A
+t1195942194
+s11322
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/dirent.h
+c000000004748A13200000000000014E4
+t1195942194
+s5348
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/errno.h
+c000000004748A13100000000000003EB
+t1195942193
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/fcntl.h
+c000000004748A13100000000000003EA
+t1195942193
+s1002
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/getopt.h
+c000000004748A1310000000000000CBC
+t1195942193
+s3260
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/inttypes.h
+c000000004748A13100000000000027D1
+t1195942193
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/pthread.h
+c000000004748A133000000000000380F
+t1195942195
+s14351
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/setjmp.h
+c000000004748A1310000000000000438
+t1195942193
+s1080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/sys/ioctl.h
+c00000000476344BF00000000000011D1
+t1197687999
+s4561
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/sys/select.h
+c00000000476344C000000000000016A2
+t1197688000
+s5794
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/termios.h
+c000000004748A13100000000000004D4
+t1195942193
+s1236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/time.h
+c000000004748A133000000000000178E
+t1195942195
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/wchar.h
+c000000004748A13300000000000025DA
+t1195942195
+s9690
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004748AF9500000000000010DD
+t1195945877
+s4317
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BA3E4B100000000000000EE
+t1269032113
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c00000000448600480000000000000556
+t1149632584
+s1366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004B2B4D460000000000193960
+t1261129030
+s1653088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004B2B61C3000000000004AFC0
+t1261134275
+s307136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004B2B61BC00000000000001AF
+t1261134268
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004486036800000000000003A8
+t1149633384
+s936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004B2B634C000000000000017D
+t1261134668
+s381
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004B2B4D63000000000001EEA0
+t1261129059
+s126624
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004B2B5307000000000000094F
+t1261130503
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004B2B53070000000000009369
+t1261130503
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004B2B53070000000000002A42
+t1261130503
+s10818
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004B2B532D000000000001F8E0
+t1261130541
+s129248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B2B540C00000000000E5890
+t1261130764
+s940176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004485F81C000000000000062F
+t1149630492
+s1583
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/TargetConditionals.h
+c000000004B2B4EE200000000000031E9
+t1261129442
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/ctype.h
+c000000004748A1320000000000002C3A
+t1195942194
+s11322
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/dirent.h
+c000000004748A13200000000000014E4
+t1195942194
+s5348
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/errno.h
+c000000004748A13100000000000003EB
+t1195942193
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/fcntl.h
+c000000004748A13100000000000003EA
+t1195942193
+s1002
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/getopt.h
+c000000004748A1310000000000000CBC
+t1195942193
+s3260
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/inttypes.h
+c000000004748A13100000000000027D1
+t1195942193
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/pthread.h
+c000000004748A133000000000000380F
+t1195942195
+s14351
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/setjmp.h
+c000000004748A1310000000000000438
+t1195942193
+s1080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/sys/ioctl.h
+c00000000476344BF00000000000011D1
+t1197687999
+s4561
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/sys/select.h
+c00000000476344C000000000000016A2
+t1197688000
+s5794
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/termios.h
+c000000004748A13100000000000004D4
+t1195942193
+s1236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/time.h
+c000000004748A133000000000000178E
+t1195942195
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/wchar.h
+c000000004748A13300000000000025DA
+t1195942195
+s9690
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004748AF9500000000000010DD
+t1195945877
+s4317
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004B9F524A00000000000018EE
+t1268732490
+s6382
+i"ofTypes.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxMultitouch/src/ofxMultiTouch.h
+c000000004B9F524A0000000000000B9D
+t1268732490
+s2973
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxMultitouch/src/ofxMultiTouchListener.h
+c000000004B9F524A0000000000000BC9
+t1268732490
+s3017
+i"ofEvents.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/ofxiPhone.h
+c000000004B9F524A000000000000089A
+t1268732490
+s2202
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxAccelerometer.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/ofxiPhoneExtras.h
+c000000004BA1FD6C0000000000002140
+t1268907372
+s8512
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneAppDelegate.h"
+i"EAGLView.h"
+i"ofxiPhoneKeyboard.h"
+i"ofxiPhoneCoreLocation.h"
+i"ofxiPhoneImagePicker.h"
+i"ofxiPhoneMapKit.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/EAGLView.h
+c000000004B9F524A0000000000000D22
+t1268732490
+s3362
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxMultiTouch.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004B9F524A0000000000000CD5
+t1268732490
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004B9F524A0000000000000D2A
+t1268732490
+s3370
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneAlertsListener.h
+c000000004BA0EB600000000000000821
+t1268837216
+s2081
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneApp.h
+c000000004B9F524A000000000000046B
+t1268732490
+s1131
+i"ofMain.h"
+i"ofEvents.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004B9F524A0000000000000955
+t1268732490
+s2389
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004B9F524A00000000000008A6
+t1268732490
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004B9F524A0000000000000C2E
+t1268732490
+s3118
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004B9F524A0000000000000583
+t1268732490
+s1411
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004B9F524A000000000000162C
+t1268732490
+s5676
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/Users/ianm/of_v61b_iPhone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKitListener.h
+c000000004B9F524A0000000000000881
+t1268732490
+s2177
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/include/FreeImage.h
+c000000004B1BD418000000000000CC1B
+t1260114968
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/iphone/libFreeImage_iphone_universal.a
+c000000004AE118E40000000001F9A1D8
+t1256265956
+s33137112
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/iphone/libFreeType_iphone_universal.a
+c000000004AE118E400000000004C2830
+t1256265956
+s4991024
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/include_iphone/glu.h
+c000000004B9F524A0000000000001F99
+t1268732490
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/iphone/libGLU.a
+c000000004AE118E4000000000002C690
+t1256265956
+s181904
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/iphone/libGLU_arm.a
+c000000004AE118E4000000000002B300
+t1256265956
+s176896
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/CppUnit.a
+c000000004B9F524A000000000001BD00
+t1268732490
+s113920
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoFoundation.a
+c000000004B9F524A0000000000295688
+t1268732490
+s2709128
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoNet.a
+c000000004B9F524A00000000001992E0
+t1268732490
+s1676000
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoUtil.a
+c000000004B9F524A0000000000082A80
+t1268732490
+s535168
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoXML.a
+c000000004B9F524A00000000000F3010
+t1268732490
+s995344
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/CppUnit.a
+c000000004B1F5154000000000003ABB0
+t1260343636
+s240560
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoFoundation.a
+c000000004B1F515400000000005A62E8
+t1260343636
+s5923560
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoNet.a
+c000000004B1F51540000000000378278
+t1260343636
+s3637880
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoUtil.a
+c000000004B1F515400000000000FFB80
+t1260343636
+s1047424
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoXML.a
+c000000004B1F51540000000000239BC0
+t1260343636
+s2333632
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/bin/data/Default.png
+c000000004BA0E79C000000000000CE24
+t1268836252
+s52772
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/bin/data/Icon.png
+c000000004BA0E79C00000000000011F0
+t1268836252
+s4592
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app
+t1269295045
+s272
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app.dSYM
+t1269295045
+s102
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/Default.png
+t1269295045
+s52772
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/Icon.png
+t1269295045
+s4592
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/Info.plist
+t1269295039
+s661
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/PkgInfo
+t1269295039
+s8
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample
+t1269295044
+s4751016
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/ofxiphone-Info.plist
+t1269295040
+s564
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/emptyExample.LinkFileList
+c000000004BA7E7BF0000000000000129
+t1269295039
+s297
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o
+t1269295042
+s439856
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o
+t1269295042
+s468524
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+c000000004BA7E7BF0000000000000042
+t1269295039
+s66
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/iPhone_Prefix.pch
+c000000004BA0E79C00000000000000B5
+t1268836252
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/ofxiphone-Info.plist
+c000000004BA0E79C00000000000003F7
+t1268836252
+s1015
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/main.mm
+c000000004BA208E8000000000000009E
+t1268910312
+s158
+i"ofMain.h"
+i"testApp.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.h
+c000000004BA208E200000000000001EA
+t1268910306
+s490
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.mm
+c000000004BA208E80000000000000657
+t1268910312
+s1623
+i"testApp.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004B1A0F280000000000000446
+t1259999016
+s1094
+i"ofTypes.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004B1A0E36000000000000066C
+t1259998774
+s1644
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/app/ofAppRunner.h
+c000000004B1A0DD2000000000000050D
+t1259998674
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/app/ofBaseApp.h
+c000000004B9F524A0000000000000376
+t1268732490
+s886
+i"ofTypes.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/communication/ofArduino.h
+c000000004B1A86980000000000003D3C
+t1260029592
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/communication/ofSerial.h
+c000000004B1E270C0000000000000D2E
+t1260267276
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/events/ofEventUtils.h
+c000000004B19FA220000000000000A8A
+t1259993634
+s2698
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/events/ofEvents.h
+c000000004B9F524A0000000000000E3C
+t1268732490
+s3644
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/graphics/ofGraphics.h
+c000000004B9F524A0000000000000CF3
+t1268732490
+s3315
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/graphics/ofImage.h
+c000000004B1A6B740000000000000C9F
+t1260022644
+s3231
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/graphics/ofTexture.h
+c000000004B1E270C0000000000000B5A
+t1260267276
+s2906
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004AE118E4000000000000087A
+t1256265956
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/ofMain.h
+c000000004B1A6B740000000000000347
+t1260022644
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004B1A703A00000000000006C3
+t1260023866
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/sound/ofSoundStream.h
+c000000004AE118E40000000000000254
+t1256265956
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/utils/ofConstants.h
+c000000004B9F524A0000000000002A7F
+t1268732490
+s10879
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<stdio.h>
+i<stdarg.h>
+i<math.h>
+i<time.h>
+i<stdlib.h>
+i<string.h>
+i<iostream>
+i<vector>
+i<string>
+i<sstream>
+i<iomanip>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/utils/ofMath.h
+c000000004B1B51A600000000000006DB
+t1260081574
+s1755
+i"ofConstants.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/utils/ofTypes.h
+c000000004B1A23300000000000001991
+t1260004144
+s6545
+i"ofConstants.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/utils/ofUtils.h
+c000000004AE118E400000000000005A4
+t1256265956
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/video/ofGstUtils.h
+c000000004B1BC4E00000000000000B42
+t1260111072
+s2882
+i<gst/gst.h>
+i<pthread.h>
+i"ofConstants.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/video/ofQtUtils.h
+c000000004AE118E400000000000006CF
+t1256265956
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/video/ofUCUtils.h
+c000000004AE118E400000000000004A7
+t1256265956
+s1191
+i"ofConstants.h"
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i<unicap.h>
+i<unistd.h>
+i<string.h>
+i<pthread.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004B1BAB680000000000000C9C
+t1260104552
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004B1B8EE60000000000000BD3
+t1260097254
+s3027
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworksCompiled/lib/iphone/libofxiPhoneOFLib_iphonesimulator _Debug.a
+c000000004BA7E7BF0000000000A24510
+t1269295039
+s10634512
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/AbstractDelegate.h
+c000000004AE118E40000000000000B2E
+t1256265956
+s2862
+i"Poco/Foundation.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/AbstractEvent.h
+c000000004AE118E40000000000002C6A
+t1256265956
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/ActiveMethod.h
+c000000004AE118E40000000000001C64
+t1256265956
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/ActiveResult.h
+c000000004AE118E40000000000002E66
+t1256265956
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/ActiveRunnable.h
+c000000004AE118E40000000000001785
+t1256265956
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/ActiveStarter.h
+c000000004AE118E40000000000000927
+t1256265956
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/AutoPtr.h
+c000000004AE118E40000000000001E0C
+t1256265956
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Bugcheck.h
+c000000004AE118E400000000000012FE
+t1256265956
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/CompareFunctions.h
+c000000004AE118E400000000000007EC
+t1256265956
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Config.h
+c000000004AE118E400000000000008B5
+t1256265956
+s2229
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Delegate.h
+c000000004AE118E40000000000001802
+t1256265956
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Event.h
+c000000004AE118E40000000000000E21
+t1256265956
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Event_POSIX.h
+c000000004AE118E40000000000000A91
+t1256265956
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Event_WIN32.h
+c000000004AE118E40000000000000947
+t1256265956
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Exception.h
+c000000004AE118E400000000000026AC
+t1256265956
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Expire.h
+c000000004AE118E40000000000000CF1
+t1256265956
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/FIFOEvent.h
+c000000004AE118E40000000000000AD4
+t1256265956
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/FIFOStrategy.h
+c000000004AE118E400000000000010F3
+t1256265956
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Foundation.h
+c000000004B1E270C0000000000001023
+t1260267276
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/FunctionDelegate.h
+c000000004AE118E400000000000013CA
+t1256265956
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Mutex.h
+c000000004AE118E40000000000001A61
+t1256265956
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004AE118E40000000000000AC3
+t1256265956
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004AE118E40000000000000A07
+t1256265956
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/NotificationStrategy.h
+c000000004AE118E40000000000000A37
+t1256265956
+s2615
+i"Poco/Foundation.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Platform.h
+c000000004AE118E40000000000001A3A
+t1256265956
+s6714
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Platform_POSIX.h
+c000000004AE118E40000000000000843
+t1256265956
+s2115
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Platform_VMS.h
+c000000004AE118E40000000000000BAA
+t1256265956
+s2986
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Platform_WIN32.h
+c000000004AE118E40000000000000D4D
+t1256265956
+s3405
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/RefCountedObject.h
+c000000004AE118E40000000000000B10
+t1256265956
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Runnable.h
+c000000004AE118E40000000000000861
+t1256265956
+s2145
+i"Poco/Foundation.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/ScopedLock.h
+c000000004AE118E400000000000008EB
+t1256265956
+s2283
+i"Poco/Foundation.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/SharedPtr.h
+c000000004AE118E400000000000021DE
+t1256265956
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/SignalHandler.h
+c000000004AE118E400000000000011EB
+t1256265956
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/SingletonHolder.h
+c000000004AE118E40000000000000A64
+t1256265956
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Thread.h
+c000000004AE118E40000000000001C3A
+t1256265956
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/ThreadPool.h
+c000000004AE118E40000000000001849
+t1256265956
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Thread_POSIX.h
+c000000004AE118E400000000000012A8
+t1256265956
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Thread_WIN32.h
+c000000004AE118E4000000000000106C
+t1256265956
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Timestamp.h
+c000000004AE118E400000000000019A7
+t1256265956
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/Types.h
+c000000004AE118E40000000000001910
+t1256265956
+s6416
+i"Poco/Foundation.h"
+
+N/Users/ianm/of_v61b_iPhone_FAT/libs/poco/include/Poco/UnWindows.h
+c000000004B1E270C0000000000000FD1
+t1260267276
+s4049
+i<windows.h>
+
+N/var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-beebvxaderogokawhefmhjhvutfz/iPhone_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-drshpdigouvohncjmirmfeqzzayt/iPhone_Prefix.pch.gch
+t1269295041
+s13972912
+
+Nofxiphone-Info.plist
+c000000004BA0E79C00000000000003F7
+t1268836252
+s1015
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290987839#290987839#0(116"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.1(22@109"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.290987839#18446744073709551615#0#0(1@0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/main.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s290987841.240201
+e290987842.163177
+r1
+xCompileC
+xbuild/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/main.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/main.mm290987841#290987842#0(0"0(0#0#62"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/main.mm4300885448#2999"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -include /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-drshpdigouvohncjmirmfeqzzayt/iPhone_Prefix.pch -c /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/main.mm -o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o0#
+
+CCompileC build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s290987842.163306
+e290987842.980194
+r1
+xCompileC
+xbuild/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.mm290987842#290987842#0(0"0(0#0#65"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.mm4300885448#3005"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -include /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-drshpdigouvohncjmirmfeqzzayt/iPhone_Prefix.pch -c /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/src/testApp.mm -o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o0#
+
+CCopyPlistFile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
+s290987839.949854
+e290987840.475383
+r1
+xCopyPlistFile
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/ofxiphone-Info.plist
+xofxiphone-Info.plist
+lSLF07#2@25"Copy ofxiphone-Info.plist290987839#290987840#0(0"0(0#0#71"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/ofxiphone-Info.plist4300885448#424"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ofxiphone-Info.plist --outdir /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app0#
+
+CCpResource build/Debug-iphonesimulator/emptyExample.app/Default.png bin/data/Default.png
+s290987839.943523
+e290987840.008209
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/emptyExample.app/Default.png
+xbin/data/Default.png
+lSLF07#2@25"Copy bin/data/Default.png290987839#290987840#0(0"0(0#0#71"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/bin/data/Default.png4300885448#505"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/bin/data/Default.png /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app0#
+
+CCpResource build/Debug-iphonesimulator/emptyExample.app/Icon.png bin/data/Icon.png
+s290987839.945625
+e290987840.009629
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/emptyExample.app/Icon.png
+xbin/data/Icon.png
+lSLF07#2@22"Copy bin/data/Icon.png290987839#290987840#0(0"0(0#0#68"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/bin/data/Icon.png4300885448#502"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/bin/data/Icon.png /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app0#
+
+CGenerateDSYMFile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app.dSYM /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample
+s290987844.481855
+e290987845.429567
+r1
+xGenerateDSYMFile
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app.dSYM
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/emptyExample.app.dSYM build/Debug-iphonesimulator/emptyExample.app/emptyExample290987844#290987845#0(0"0(0#0#108"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample4300885448#434"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample -o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app.dSYM0#
+
+CLd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample normal i386
+s290987842.980326
+e290987844.481580
+r1
+xLd
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample
+xnormal
+xi386
+lSLF07#2@113"Link /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample290987842#290987844#0(0"0(0#0#0"4300885448#3981"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freeimage/lib -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/gluIphone -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/iphone -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/linux -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/linux64 -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/osx -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/vs2008 -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/win_cb -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/iphone -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/linux -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/linux64 -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/osx -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/vs2008 -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/win_cb -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/iphone -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/vs2008 -L/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/win_cb -L/Developer/openFrameworks/libs/poco/lib/armv6 -L/Developer/openFrameworks/libs/poco/lib/linux -L/Developer/openFrameworks/libs/poco/lib/linux64 -L/Developer/openFrameworks/libs/poco/lib/osx -L/Developer/openFrameworks/libs/poco/lib/vs2008 -L/Developer/openFrameworks/libs/poco/lib/win_cb -F/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator -filelist /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/emptyExample.LinkFileList -mmacosx-version-min=10.5 -ObjC -w -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation -lFreeImage_iphone_universal -lFreeType_iphone_universal -lGLU -lGLU_arm "/Users/ianm/of_v61b_iPhone_FAT/libs/openFrameworksCompiled/lib/iphone/libofxiPhoneOFLib_iphonesimulator _Debug.a" /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/CppUnit.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoFoundation.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoNet.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoUtil.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/armv6/PocoXML.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/CppUnit.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoFoundation.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoNet.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoUtil.a /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/poco/lib/osx/PocoXML.a -o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/emptyExample0#
+
+CPhaseScriptExecution "Run Script" /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+s290987845.429686
+e290987845.446457
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+lSLF07#2@36"Run custom shell script 'Run Script'290987845#290987845#0(0"0(0#0#0"4300885448#20072"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ianm    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build    setenv BUILD_ROOT /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES NO    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH emptyExample.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/iPhoneTennis2-4.dst    setenv DWARF_DSYM_FILE_NAME emptyExample.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH emptyExample.app/Executables    setenv EXECUTABLE_FOLDER_PATH emptyExample.app    setenv EXECUTABLE_NAME emptyExample    setenv EXECUTABLE_PATH emptyExample.app/emptyExample    setenv FILE_LIST /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH emptyExample.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME emptyExample.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iPhone_Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30000"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ABOUT_POINTER_SIGNEDNESS NO    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_PROTOTYPE_CONVERSION NO    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/include\" ../../../libs/poco/include ../../../addons/ofxAccelerometer/** ../../../addons/ofxMultitouch/** ../../../addons/ofxiPhone/** ../../../libs/openFrameworks/** ../../../libs/freetype/**"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ofxiphone-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH emptyExample.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/iPhoneTennis2-4.dst/Users/ianm/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ianm    setenv INSTALL_PATH /Users/ianm/Applications    setenv INSTALL_ROOT /tmp/iPhoneTennis2-4.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH emptyExample.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator\"  \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freeimage/lib\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/gluIphone\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/iphone\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/linux\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/linux64\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/osx\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/vs2008\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/FreeImage/lib/win_cb\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/iphone\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/linux\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/linux64\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/osx\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/vs2008\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/freetype/lib/win_cb\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/iphone\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/vs2008\" \"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/../../../libs/glu/lib/win_cb\" \"/Developer/openFrameworks/libs/poco/lib/armv6\" \"/Developer/openFrameworks/libs/poco/lib/linux\" \"/Developer/openFrameworks/libs/poco/lib/linux64\" \"/Developer/openFrameworks/libs/poco/lib/osx\" \"/Developer/openFrameworks/libs/poco/lib/vs2008\" \"/Developer/openFrameworks/libs/poco/lib/win_cb\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/emptyExample.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Objects-normal    setenv OBJROOT /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-ObjC -w"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH emptyExample.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c++    setenv PKGINFO_FILE_PATH /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/PkgInfo    setenv PKGINFO_PATH emptyExample.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH emptyExample.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH emptyExample.app/PrivateHeaders    setenv PRODUCT_NAME emptyExample    setenv PRODUCT_SETTINGS_PATH /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/ofxiphone-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT iPhoneTennis2-4    setenv PROJECT_DERIVED_FILE_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/DerivedSources    setenv PROJECT_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv PROJECT_FILE_PATH /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/iPhoneTennis2-4.xcodeproj    setenv PROJECT_NAME iPhoneTennis2-4    setenv PROJECT_TEMP_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build    setenv PUBLIC_HEADERS_FOLDER_PATH emptyExample.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH emptyExample.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk    setenv SDK_NAME iphonesimulator3.1.3    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH emptyExample.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH emptyExample.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv SRCROOT /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/SymbolRepositories    setenv SYMROOT /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME emptyExample    setenv TARGET_BUILD_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator    setenv TARGET_NAME emptyExample    setenv TARGET_TEMP_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_FILES_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_FILE_DIR /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_ROOT /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH emptyExample.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER ianm    setenv USER_APPS_DIR /Users/ianm/Applications    setenv USER_LIBRARY_DIR /Users/ianm/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH emptyExample.app/version.plist    setenv VERSION_INFO_BUILDER ianm    setenv VERSION_INFO_FILE emptyExample_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:emptyExample  PROJECT:iPhoneTennis2-4-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME emptyExample.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh0#
+
+CProcessInfoPlistFile /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/Info.plist ofxiphone-Info.plist
+s290987839.939859
+e290987839.943439
+r1
+xProcessInfoPlistFile
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/Info.plist
+xofxiphone-Info.plist
+lSLF07#2@28"Process ofxiphone-Info.plist290987839#290987839#0(0"0(0#0#71"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/ofxiphone-Info.plist4300885448#527"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ofxiphone-Info.plist -genpkginfo /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app/Info.plist0#
+
+CProcessPCH++ /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-beebvxaderogokawhefmhjhvutfz/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-drshpdigouvohncjmirmfeqzzayt/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s290987840.475518
+e290987841.239969
+r1
+xProcessPCH++
+x/var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-drshpdigouvohncjmirmfeqzzayt/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iPhone_Prefix.pch290987840#290987841#0(0"0(0#0#68"/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/iPhone_Prefix.pch4300885448#2860"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/iPhoneTennis2-4.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -c /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/iPhone_Prefix.pch -o /var/folders/K3/K3dYJaVbEVmPbRsGpYxHok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-drshpdigouvohncjmirmfeqzzayt/iPhone_Prefix.pch.gch0#
+
+CTouch /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app
+s290987845.446807
+e290987845.450039
+r1
+xTouch
+x/Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app
+lSLF07#2@101"Touch /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app290987845#290987845#0(0"0(0#0#0"4300885448#307"    cd /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ianm/of_v61b_iPhone_FAT/apps/mine/tennis2-4/build/Debug-iphonesimulator/emptyExample.app0#
+
