@@ -24,7 +24,7 @@ void testApp::setup(){
 	
 	screenWidth = ofGetScreenWidth();
 	screenHeight = ofGetScreenHeight();
-	ofSetFrameRate(200);
+	ofSetFrameRate(FRAMERATE);
 //	screenWidth = 800;
 //	screenHeight = 600;
 	ofBackground(0,0,0);	
@@ -48,10 +48,6 @@ void testApp::setup(){
 				bat[i].limit[1] = screenWidth-H_MARGIN;
 				bat[i].limit[2] = 0;
 				bat[i].limit[3] = V_MARGIN;
-				bat[i].hit.x = bat[i].cx - LONG_SIZE/2 - GAP;
-				bat[i].hit.y = bat[i].cy - THIN_SIZE/2 - GAP;
-				bat[i].hit.width = LONG_SIZE + 2*GAP;
-				bat[i].hit.height = THIN_SIZE + 2*GAP;
 				break;
 				
 			case 1:							// bottom bat
@@ -59,10 +55,6 @@ void testApp::setup(){
 				bat[i].limit[1] = screenWidth-H_MARGIN;
 				bat[i].limit[2] = screenHeight-V_MARGIN;
 				bat[i].limit[3] = screenHeight;
-				bat[i].hit.x = bat[i].cx - LONG_SIZE/2 - GAP;
-				bat[i].hit.y = bat[i].cy - THIN_SIZE/2 - GAP;
-				bat[i].hit.width = LONG_SIZE + 2*GAP;
-				bat[i].hit.height = THIN_SIZE + 2*GAP;
 				break;
 				
 			case 2:	
@@ -70,10 +62,6 @@ void testApp::setup(){
 				bat[i].limit[1] = H_MARGIN;
 				bat[i].limit[2] = V_MARGIN;
 				bat[i].limit[3] = screenHeight-V_MARGIN;
-				bat[i].hit.x = bat[i].cx - THIN_SIZE/2 - GAP;
-				bat[i].hit.y = bat[i].cy - LONG_SIZE/2 - GAP;
-				bat[i].hit.width = THIN_SIZE + 2*GAP;
-				bat[i].hit.height = LONG_SIZE + 2*GAP;
 				break;
 				
 			case 3:	
@@ -81,14 +69,42 @@ void testApp::setup(){
 				bat[i].limit[1] = screenWidth;
 				bat[i].limit[2] = V_MARGIN;
 				bat[i].limit[3] = screenHeight-V_MARGIN;
+				break;
+		}
+		bat[i].cx = bat[i].limit[0] + (bat[i].limit[1] - bat[i].limit[0])/2;
+		bat[i].cy = bat[i].limit[2] + (bat[i].limit[3] - bat[i].limit[2])/2;
+		
+		// update the hit rectangle for this bat
+		switch (i) {
+			case 0:							// top bat	
+				bat[i].hit.x = bat[i].cx - LONG_SIZE/2 - GAP;
+				bat[i].hit.y = bat[i].cy - THIN_SIZE/2 - GAP;
+				bat[i].hit.width = LONG_SIZE + 2*GAP;
+				bat[i].hit.height = THIN_SIZE + 2*GAP;
+				break;
+				
+			case 1:							// bottom bat
+				bat[i].hit.x = bat[i].cx - LONG_SIZE/2 - GAP;
+				bat[i].hit.y = bat[i].cy - THIN_SIZE/2 - GAP;
+				bat[i].hit.width = LONG_SIZE + 2*GAP;
+				bat[i].hit.height = THIN_SIZE + 2*GAP;
+				break;
+				
+			case 2:	
+				bat[i].hit.x = bat[i].cx - THIN_SIZE/2 - GAP;
+				bat[i].hit.y = bat[i].cy - LONG_SIZE/2 - GAP;
+				bat[i].hit.width = THIN_SIZE + 2*GAP;
+				bat[i].hit.height = LONG_SIZE + 2*GAP;
+				break;
+				
+			case 3:	
 				bat[i].hit.x = bat[i].cx - THIN_SIZE/2 - GAP;
 				bat[i].hit.y = bat[i].cy - LONG_SIZE/2 - GAP;
 				bat[i].hit.width = THIN_SIZE + 2*GAP;
 				bat[i].hit.height = LONG_SIZE + 2*GAP;
 				break;
 		}
-		bat[i].cx = bat[i].limit[0] + (bat[i].limit[1] - bat[i].limit[0])/2;
-		bat[i].cy = bat[i].limit[2] + (bat[i].limit[3] - bat[i].limit[2])/2;
+		
 	}
 	
 	flash = 0;
@@ -110,6 +126,9 @@ void testApp::drawBat(int i) {
 }
 //--------------------------------------------------------------
 void testApp::update(){
+	float halfbat;
+	float midbat;
+	float prop;
 	
 	if (action == SERVING || action == SCORING) {
 		// update a flashing count
@@ -168,6 +187,19 @@ void testApp::update(){
 						direction *= -1;
 						//				direction = TWO_PI - direction;
 						//				if (direction > TWO_PI) direction -= TWO_PI;
+
+						// calc proportion down the bat
+						halfbat = bat[i].hit.width/2;
+						midbat = bat[i].hit.x + halfbat;
+						prop = (midbat - ball.cx)/halfbat;
+						dbProp = prop;
+						dbBall = ball.cx;
+
+						if (i==0) {
+							direction -= H_ARC * prop;
+						} else {						
+							direction += H_ARC * prop;
+						}
 						setSpeed();
 						// ball.yspeed *= -1;				
 					}
@@ -183,6 +215,22 @@ void testApp::update(){
 						direction = PI - direction;
 						//						direction = TWO_PI - direction;
 						//						if (direction > TWO_PI) direction -= TWO_PI;
+
+						// calc proportion down the bat
+						halfbat = bat[i].hit.height/2;
+						midbat = bat[i].hit.y + halfbat;
+						prop = (midbat - ball.cy)/halfbat;
+						dbProp = prop;
+						dbBall = ball.cy;
+
+						if (i==2) {
+							direction += V_ARC * prop;
+						} else {						
+							direction -= V_ARC * prop;
+						}
+						
+						
+						
 						setSpeed();
 						// ball.xspeed *= -1;				
 					}
@@ -274,61 +322,19 @@ void testApp::keyPressed(int key){
 void testApp::keyReleased(int key){
 	
 }
+ */
 
-//--------------------------------------------------------------
-void testApp::mouseMoved(int x, int y ){
-	// find which bat
-	for (int i=0; i<4; i++) {
-		// if click in area
-		if (x>bat[i].limit[0] && x<bat[i].limit[1] && y>bat[i].limit[2] && y<bat[i].limit[3] ) {
-			bat[i].cx = x;
-			bat[i].cy = y;
-			
-			// update the hit rectangle for this bat
-			switch (i) {
-				case 0:							// top bat	
-					bat[i].hit.x = bat[i].cx - LONG_SIZE/2 - GAP;
-					bat[i].hit.y = bat[i].cy - THIN_SIZE/2 - GAP;
-					bat[i].hit.width = LONG_SIZE + 2*GAP;
-					bat[i].hit.height = THIN_SIZE + 2*GAP;
-					break;
-					
-				case 1:							// bottom bat
-					bat[i].hit.x = bat[i].cx - LONG_SIZE/2 - GAP;
-					bat[i].hit.y = bat[i].cy - THIN_SIZE/2 - GAP;
-					bat[i].hit.width = LONG_SIZE + 2*GAP;
-					bat[i].hit.height = THIN_SIZE + 2*GAP;
-					break;
-					
-				case 2:	
-					bat[i].hit.x = bat[i].cx - THIN_SIZE/2 - GAP;
-					bat[i].hit.y = bat[i].cy - LONG_SIZE/2 - GAP;
-					bat[i].hit.width = THIN_SIZE + 2*GAP;
-					bat[i].hit.height = LONG_SIZE + 2*GAP;
-					break;
-					
-				case 3:	
-					bat[i].hit.x = bat[i].cx - THIN_SIZE/2 - GAP;
-					bat[i].hit.y = bat[i].cy - LONG_SIZE/2 - GAP;
-					bat[i].hit.width = THIN_SIZE + 2*GAP;
-					bat[i].hit.height = LONG_SIZE + 2*GAP;
-					break;
-			}
-			
-			break;
-		}
-	}
-}
-*/
 void testApp::drawDebug(float x, float y) {
+
 	char tempString[255];
 	sprintf(tempString," cx,cy: %3.2f, %3.2f,\n xspeed, yspeed:  %3.2f, %3.2f, \n dirn:%3.2f", ball.cx, ball.cy, ball.xspeed, ball.yspeed, direction );
 	debugFont.drawString(tempString, x, y-30);
 }
 
 void testApp::drawScoreboard(float x, float y, float w, float h) {
-	
-	drawDebug(x, y-20);
+	if (DEBUG_ON) {
+		drawDebug(x, y-20);
+	}
 	float AX = 0.3;
 	float AY = 0.3;
 	
@@ -395,18 +401,21 @@ void testApp::drawScoreboard(float x, float y, float w, float h) {
 //--------------------------------------------------------------
 void testApp::exit(){
 
-
 }
 
 //--------------------------------------------------------------
 void testApp::touchMoved(ofTouchEventArgs &touch){
+	moveBat(touch.x, touch.y);
 }
 
 //--------------------------------------------------------------
 void testApp::touchDown(ofTouchEventArgs &touch){
-	int x = touch.x;
-	int y = touch.y;
+	moveBat(touch.x, touch.y);
+}
 	
+	//--------------------------------------------------------------
+void testApp::moveBat(int x, int y){
+		
 	// find which bat
 	for (int i=0; i<4; i++) {
 		// if click in area
@@ -458,7 +467,12 @@ void testApp::touchUp(ofTouchEventArgs &touch){
 
 //--------------------------------------------------------------
 void testApp::touchDoubleTap(ofTouchEventArgs &touch){
-
+	int x = touch.x;
+	int y = touch.y;
+	ofRectangle r = ofRectangle(screenWidth/2-30,screenHeight/2-30,60,60);
+	if (pointInRect(r, x, y)) {
+		newGame();
+	}
 }
 
 //--------------------------------------------------------------

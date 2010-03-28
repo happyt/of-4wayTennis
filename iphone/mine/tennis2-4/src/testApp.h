@@ -29,6 +29,7 @@ public:
 	void drawDebug(float x, float y);
 	void setSpeed();
 	void newGame();
+	void moveBat(int x, int y);
 	
 	struct paddle {
 		float cx;
@@ -63,17 +64,31 @@ public:
 	int flash;
 	int flashCount;
 	
+	float dbProp;
+	float dbx;
+	float dby;
+	float dbBall;
+	
 	float speedScale;
 	
 #define V_MARGIN 50
 #define H_MARGIN 50
 	
-#define SPEED_SCALE 0.4
+	// these are the variation angle after bat hit
+#define V_ARC 1.0
+#define H_ARC 1.0
+	
+	
+	
+#define SPEED_SCALE 4
 #define FLASH_SCALE 20
+#define FRAMERATE 100
 	
 #define THIN_SIZE 10
 #define LONG_SIZE 100
 #define GAP 10
+#define DEBUG_ON false
+	
 };
 
 
