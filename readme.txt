@@ -109,6 +109,35 @@ git commit -m "add iphone directory"
 make sure add the -m else will get taken into the vim editor
 
 still hadn't added the dir. on the web site ??
+so, git push origin master
+
+eventually had to go back to the emptyExample
+needed to take out mouse clicks and add touch event handler
+
+
+get tennis app going
+git add iphone
+git commit -m "add tennis app"
+git push origin master
+
+
+Sat 27 Mar
+
+Worked out how to get the provisioning sorted on the iPhone
+did the tennis24 app
+all working in sdk 3.1 to iPhone, so will commit and then upgrade
+need to work out what to do to apply for app store
+
+cd ~/git/happytuesdays
+git add iphone
+git commit -m "update tennis24"
+git push origin master
+    it then counted and compressed various files
+
+
+
+
+
 
 
 
