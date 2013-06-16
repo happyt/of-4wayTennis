@@ -1,3 +1,9 @@
+Early test of git, openFrameworks
+
+This was a Pong look alike
+
+===============================
+
 git setup on mac
 
 
